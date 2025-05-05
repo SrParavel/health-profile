@@ -1,11 +1,13 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import MultiStepForm from "../components/RiskForm";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <h1 class="font-bold text-4xl">Test De Riesgo Cardiovascular</h1>
+  <p class="w-xl text-center">
+    Para poder determinar si tienes riesgo de sufrir una enfermedad cardiovascular, primero debemos saber unas cuantas
+    cosas sobre ti
+  </p>
+  <MultiStepForm client:load />
 </Layout>

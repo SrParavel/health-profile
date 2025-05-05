@@ -1,0 +1,25 @@
+export type HealthProfile = {
+  Sex: string;
+  GeneralHealth: string;
+  PhysicalHealthDays: number;
+  MentalHealthDays: number;
+  PhysicalActivities: string;
+  SleepHours: number;
+  HadAngina: string;
+  HadStroke: string;
+  HadAsthma: string;
+  HadSkinCancer: string;
+  HadCOPD: string;
+  HadDepressiveDisorder: string;
+  HadKidneyDisease: string;
+  HadArthritis: string;
+  HadDiabetes: string;
+  DifficultyWalking: string;
+  SmokerStatus: string;
+  ECigaretteUsage: string;
+  RaceEthnicityCategory: string;
+  AgeCategory: string;
+  BMI: number;
+  AlcoholDrinkers: string;
+  TetanusLast10Tdap: string;
+};
