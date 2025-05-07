@@ -1,6 +1,6 @@
-import type { HealthProfile } from "./HealthProfile";
+import type { FormData } from "./formData";
 
-export type StepProps = {
-  formData: HealthProfile;
+export interface StepProps {
+  formData: FormData;
   handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
-};
+}

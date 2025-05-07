@@ -8,7 +8,7 @@ function SecondaryButton(props: Props) {
   const { children, ...rest } = props;
   return (
     <button
-      className="h-8 w-28 bg-gray-200 text-gray-400 hover:bg-gray-300 font-semibold rounded-md cursor-pointer transition duration-300"
+      className="h-8 w-28 border border-gray-200  font-semibold text-gray-400 text-sm hover:bg-gray-100 rounded-md cursor-pointer transition duration-300"
       {...rest}
     >
       {children}

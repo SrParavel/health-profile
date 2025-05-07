@@ -1,17 +1,23 @@
 import type React from "react";
-import type { Option } from "../../types/Option";
+import type { CategoricalOption } from "../../types/fields";
 import Label from "./Label";
 
 type Props = {
   label: string;
-  options: Option[];
+  options: CategoricalOption[];
 } & React.SelectHTMLAttributes<HTMLSelectElement>;
 
 function SelectField({ label, options, ...rest }: Props) {
   return (
-    <div className="flex flex-col gap-2 ">
+    <div className="flex flex-col gap-1 ">
       <Label>{label}</Label>
-      <select className="h-10 w-full border-2 px-3 border-gray-300 rounded-md outline-none text-sm" {...rest}>
+      <select
+        className="px-3 py-2 text-sm border border-gray-300 rounded-md outline-none cursor-pointer focus:ring-green-500 focus:ring"
+        {...rest}
+      >
+        <option value="" disabled>
+          Selecciona una opción
+        </option>
         {options.map((opt) => (
           <option key={opt.value} value={opt.value} className="text-sm">
             {opt.label}

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import "./Typewriter.css"; // Importa tu archivo de CSS aquí
 
-type Props = {
+interface Props {
   text: string;
   speed?: number;
-};
+}
 
-function Typewriter({ text, speed = 25 }: Props) {
+function Typewriter({ text, speed = 15 }: Props) {
   const [displayedText, setDisplayedText] = useState<string[]>([]);
 
   useEffect(() => {

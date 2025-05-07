@@ -1,10 +1,10 @@
 import type React from "react";
-import type { Option } from "../../types/Option";
+import type { CategoricalOption } from "../../types/fields";
 import Label from "./Label";
 
 type Props = {
   label: string;
-  options: Option[];
+  options: CategoricalOption[];
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
 function RadioGroup(props: Props) {
