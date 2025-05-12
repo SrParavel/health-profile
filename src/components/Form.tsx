@@ -60,9 +60,7 @@ function Form() {
   return (
     <Card>
       <div className="w-4xl grid grid-cols-[200px_1fr]">
-        <div className="border-r-2 border-gray-200 row-span-2">
-          <ProgressBar currentStep={step} />
-        </div>
+        <div className="border-r-2 border-gray-200 row-span-2">{/* <ProgressBar currentStep={step} /> */}</div>
 
         <div className="px-8 py-4 border-b-2 border-gray-200">
           <div className="text-xs text-gray-400">
