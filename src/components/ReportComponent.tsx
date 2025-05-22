@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import test_report from "../utils/test_report.json";
 
 interface Report {
   "Resultado General": string;
@@ -15,7 +14,7 @@ function ReportComponent() {
 
   useEffect(() => {
     const data = sessionStorage.getItem("report");
-    const sessionReport: Report = test_report;
+    const sessionReport: Report = JSON.parse(data || "");
     setReport(sessionReport);
   }, []);
 
@@ -24,11 +23,11 @@ function ReportComponent() {
   return (
     <div>
       <h1>Reporte de Salud</h1>
-      <p>{test_report["Resultado General"]}</p>
-      <p>{test_report["Factores Críticos"]}</p>
-      <p>{test_report["Resultado General"]}</p>
-      <p>{test_report.Recomendaciones}</p>
-      <p>{test_report.NOTA}</p>
+      <p>{report["Resultado General"]}</p>
+      <p>{report["Factores Críticos"]}</p>
+      <p>{report["Resultado General"]}</p>
+      <p>{report.Recomendaciones}</p>
+      <p>{report.NOTA}</p>
     </div>
   );
 }
