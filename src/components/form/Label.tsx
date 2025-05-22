@@ -8,7 +8,7 @@ function Label({ children, ...rest }: Props) {
   const { className } = rest;
 
   return (
-    <label {...rest} className={`text-sm text-gray-800 font-semibold px-4 ${className}`}>
+    <label {...rest} className={`text-base text-gray-800 font-bold px-4 ${className}`}>
       {children}
     </label>
   );

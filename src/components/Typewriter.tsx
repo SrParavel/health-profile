@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./Typewriter.css"; // Importa tu archivo de CSS aquí
 
 interface Props {
   text: string;

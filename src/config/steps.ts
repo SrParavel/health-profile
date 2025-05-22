@@ -52,7 +52,15 @@ import {
   highRiskLastYear,
 } from "./fields";
 
-import type { FormStep } from "../types/form";
+import type { FormStep } from "../types/FormStep";
+import {
+  LuDumbbell,
+  LuHeartPulse,
+  LuLeaf,
+  LuShieldCheck,
+  LuStethoscope,
+  LuUser,
+} from "react-icons/lu";
 
 export const formSteps: FormStep[] = [
   {
@@ -60,7 +68,16 @@ export const formSteps: FormStep[] = [
     description: "Datos básicos para personalizar tu evaluación",
     context:
       "Para brindarte la mejor atención posible, necesitamos conocer algunos datos básicos sobre ti. Esta información nos ayudará a entender mejor tu perfil y proporcionar recomendaciones más precisas para tu salud cardiovascular.",
-    fields: [sex, ageCategory, raceEthnicityCategory, generalHealth, heightInMeters, weightInKilograms, bmi],
+    fields: [
+      sex,
+      ageCategory,
+      raceEthnicityCategory,
+      generalHealth,
+      heightInMeters,
+      weightInKilograms,
+      bmi,
+    ],
+    icon: LuUser,
   },
   {
     title: "Historial Cardiovascular",
@@ -68,13 +85,21 @@ export const formSteps: FormStep[] = [
     context:
       "Tu historial cardiovascular es fundamental para evaluar tu riesgo actual. Conocer tus experiencias previas nos permite tomar decisiones más informadas sobre tu cuidado y prevención futura.",
     fields: [hadHeartAttack, hadAngina, hadStroke, hadDiabetes],
+    icon: LuHeartPulse,
   },
   {
     title: "Estilo de Vida",
     description: "Hábitos y rutinas diarias",
     context:
       "Tu estilo de vida tiene un impacto directo en tu salud cardiovascular. Al conocer tus hábitos diarios, podemos identificar áreas de mejora y sugerir cambios que beneficien tu corazón y tu bienestar general.",
-    fields: [smokerStatus, eCigaretteUsage, alcoholDrinkers, sleepHours, mentalHealthDays],
+    fields: [
+      smokerStatus,
+      eCigaretteUsage,
+      alcoholDrinkers,
+      sleepHours,
+      mentalHealthDays,
+    ],
+    icon: LuLeaf,
   },
   {
     title: "Capacidad Física",
@@ -89,6 +114,7 @@ export const formSteps: FormStep[] = [
       difficultyConcentrating,
       physicalHealthDays,
     ],
+    icon: LuDumbbell,
   },
   {
     title: "Condiciones de Salud",
@@ -105,6 +131,7 @@ export const formSteps: FormStep[] = [
       blindOrVisionDifficulty,
       removedTeeth,
     ],
+    icon: LuStethoscope,
   },
   {
     title: "Cuidado Preventivo",
@@ -121,5 +148,6 @@ export const formSteps: FormStep[] = [
       covidPos,
       highRiskLastYear,
     ],
+    icon: LuShieldCheck,
   },
 ];

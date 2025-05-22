@@ -1,4 +1,8 @@
-import type { BinaryField, CategoricalField, NumericField } from "../types/fields";
+import type {
+  BinaryField,
+  CategoricalField,
+  NumericField,
+} from "../types/fields";
 
 // Binary Fields
 export const physicalActivities: BinaryField = {
@@ -22,7 +26,8 @@ export const hadAngina: BinaryField = {
 export const hadStroke: BinaryField = {
   name: "HadStroke",
   label: "Ha tenido un derrame cerebral",
-  description: "¿Has sufrido algún derrame cerebral o accidente cerebrovascular?",
+  description:
+    "¿Has sufrido algún derrame cerebral o accidente cerebrovascular?",
 };
 
 export const hadAsthma: BinaryField = {
@@ -40,7 +45,8 @@ export const hadSkinCancer: BinaryField = {
 export const hadCOPD: BinaryField = {
   name: "HadCOPD",
   label: "Tiene EPOC",
-  description: "¿Has sido diagnosticado con EPOC (Enfermedad Pulmonar Obstructiva Crónica)?",
+  description:
+    "¿Has sido diagnosticado con EPOC (Enfermedad Pulmonar Obstructiva Crónica)?",
 };
 
 export const hadDepressiveDisorder: BinaryField = {
@@ -94,7 +100,8 @@ export const difficultyDressingBathing: BinaryField = {
 export const difficultyErrands: BinaryField = {
   name: "DifficultyErrands",
   label: "Dificultad para realizar diligencias",
-  description: "¿Tienes dificultad para realizar actividades diarias como ir de compras o al banco?",
+  description:
+    "¿Tienes dificultad para realizar actividades diarias como ir de compras o al banco?",
 };
 
 export const chestScan: BinaryField = {
@@ -130,7 +137,8 @@ export const pneumoVaxEver: BinaryField = {
 export const highRiskLastYear: BinaryField = {
   name: "HighRiskLastYear",
   label: "Alto riesgo en el último año",
-  description: "¿Has estado en una situación de alto riesgo para tu salud en el último año?",
+  description:
+    "¿Has estado en una situación de alto riesgo para tu salud en el último año?",
 };
 
 // Categorical Fields
@@ -162,9 +170,18 @@ export const lastCheckupTime: CategoricalField = {
   label: "Último chequeo médico",
   description: "¿Cuándo fue tu último chequeo médico?",
   options: [
-    { value: "Within past year (anytime less than 12 months ago)", label: "En el último año" },
-    { value: "Within past 2 years (1 year but less than 2 years ago)", label: "En los últimos 2 años" },
-    { value: "Within past 5 years (2 years but less than 5 years ago)", label: "En los últimos 5 años" },
+    {
+      value: "Within past year (anytime less than 12 months ago)",
+      label: "En el último año",
+    },
+    {
+      value: "Within past 2 years (1 year but less than 2 years ago)",
+      label: "En los últimos 2 años",
+    },
+    {
+      value: "Within past 5 years (2 years but less than 5 years ago)",
+      label: "En los últimos 5 años",
+    },
     { value: "5 or more years ago", label: "Hace 5 años o más" },
   ],
 };
@@ -188,8 +205,14 @@ export const hadDiabetes: CategoricalField = {
   options: [
     { value: "No", label: "No" },
     { value: "Yes", label: "Sí" },
-    { value: "Yes, but only during pregnancy (female)", label: "Sí, pero solo durante el embarazo" },
-    { value: "No, pre-diabetes or borderline diabetes", label: "No, pre-diabetes o diabetes limítrofe" },
+    {
+      value: "Yes, but only during pregnancy (female)",
+      label: "Sí, pero solo durante el embarazo",
+    },
+    {
+      value: "No, pre-diabetes or borderline diabetes",
+      label: "No, pre-diabetes o diabetes limítrofe",
+    },
   ],
 };
 
@@ -200,8 +223,14 @@ export const smokerStatus: CategoricalField = {
   options: [
     { value: "Never smoked", label: "Nunca he fumado" },
     { value: "Former smoker", label: "Ex fumador" },
-    { value: "Current smoker - now smokes some days", label: "Fumo algunos días" },
-    { value: "Current smoker - now smokes every day", label: "Fumo todos los días" },
+    {
+      value: "Current smoker - now smokes some days",
+      label: "Fumo algunos días",
+    },
+    {
+      value: "Current smoker - now smokes every day",
+      label: "Fumo todos los días",
+    },
   ],
 };
 
@@ -210,8 +239,11 @@ export const eCigaretteUsage: CategoricalField = {
   label: "Ha usado cigarrillo electrónico",
   description: "¿Usas cigarrillos electrónicos?",
   options: [
-    { value: "Never used e-cigarettes in my entire life", label: "Nunca he usado cigarrillos electrónicos" },
-    { value: "Not at all (right now)", label: "No los uso en absoluto (actualmente)" },
+    {
+      value: "Never used e-cigarettes in my entire life",
+      label: "Nunca he usado cigarrillos electrónicos",
+    },
+    { value: "Not at all (right now)", label: "No los uso (actualmente)" },
     { value: "Use them some days", label: "Los uso algunos días" },
     { value: "Use them every day", label: "Los uso todos los días" },
   ],
@@ -260,7 +292,10 @@ export const tetanusLast10Tdap: CategoricalField = {
       value: "No, did not receive any tetanus shot in the past 10 years",
       label: "No, no me he vacunado en los últimos 10 años",
     },
-    { value: "Yes, received tetanus shot, but not Tdap", label: "Sí, recibí la vacuna, pero no fue Tdap" },
+    {
+      value: "Yes, received tetanus shot, but not Tdap",
+      label: "Sí, recibí la vacuna, pero no fue Tdap",
+    },
     {
       value: "Yes, received tetanus shot but not sure what type",
       label: "Sí, recibí la vacuna pero no estoy seguro del tipo",

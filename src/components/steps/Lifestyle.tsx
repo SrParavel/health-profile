@@ -9,13 +9,13 @@ import {
 import type { StepProps } from "../../types/StepProps";
 import NumberField from "../form/NumberField";
 import SelectField from "../form/SelectField";
-import ToggleButton from "../form/ToggleButton";
+import ToggleField from "../form/ToggleField";
 
 function Lifestyle({ formData, handleChange }: StepProps) {
   return (
     <fieldset className="grid gap-2">
       <div className="grid grid-cols-1 gap-2">
-        <ToggleButton {...alcoholDrinkers} checked={formData.AlcoholDrinkers} onChange={handleChange}></ToggleButton>
+        <ToggleField {...alcoholDrinkers} checked={formData.AlcoholDrinkers} onChange={handleChange}></ToggleField>
         {/* <ToggleButton
           {...difficultyConcentrating}
           checked={formData.DifficultyConcentrating}

@@ -10,27 +10,27 @@ import {
 } from "../../config/fields";
 import type { StepProps } from "../../types/StepProps";
 import SelectField from "../form/SelectField";
-import ToggleButton from "../form/ToggleButton";
+import ToggleField from "../form/ToggleField";
 
 function HealthCondition({ formData, handleChange }: StepProps) {
   return (
     <fieldset className="flex flex-col gap-2">
       <div className="grid grid-cols-2 gap-2">
-        <ToggleButton {...hadAsthma} checked={formData.HadAsthma} onChange={handleChange}></ToggleButton>
-        <ToggleButton {...hadCOPD} checked={formData.HadCOPD} onChange={handleChange}></ToggleButton>
-        <ToggleButton {...hadKidneyDisease} checked={formData.HadKidneyDisease} onChange={handleChange}></ToggleButton>
-        <ToggleButton {...hadArthritis} checked={formData.HadArthritis} onChange={handleChange}></ToggleButton>
+        <ToggleField {...hadAsthma} checked={formData.HadAsthma} onChange={handleChange}></ToggleField>
+        <ToggleField {...hadCOPD} checked={formData.HadCOPD} onChange={handleChange}></ToggleField>
+        <ToggleField {...hadKidneyDisease} checked={formData.HadKidneyDisease} onChange={handleChange}></ToggleField>
+        <ToggleField {...hadArthritis} checked={formData.HadArthritis} onChange={handleChange}></ToggleField>
         {/* <ToggleButton
           {...deafOrHardOfHearing}
           checked={formData.DeafOrHardOfHearing}
           onChange={handleChange}
           ></ToggleButton> */}
       </div>
-      <ToggleButton
+      <ToggleField
         {...hadDepressiveDisorder}
         checked={formData.HadDepressiveDisorder}
         onChange={handleChange}
-      ></ToggleButton>
+      ></ToggleField>
 
       {/* <ToggleButton
         {...blindOrVisionDifficulty}

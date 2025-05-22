@@ -1,6 +1,9 @@
+import type { JSX } from "astro/jsx-runtime";
+
 export interface FormStep {
   title: string;
   description: string;
   context: string;
-  fields: any[]; // TODO: Definir un tipo más específico para los campos
+  fields: any[];
+  icon: JSX.Element;
 }

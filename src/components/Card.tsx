@@ -1,10 +1,15 @@
-type Props = {
-  children: React.ReactNode;
-};
+import type { HTMLAttributes } from "react";
 
-function Card(props: Props) {
-  const { children } = props;
-  return <div className="shadow-lg bg-gray-50 rounded-2xl">{children}</div>;
+interface CardProps extends HTMLAttributes<HTMLDivElement> {
+  children: React.ReactNode;
+}
+
+function Card({ children, className, ...props }: CardProps) {
+  return (
+    <div {...props} className={`shadow-lg bg-white rounded-2xl ${className}`}>
+      {children}
+    </div>
+  );
 }
 
 export default Card;

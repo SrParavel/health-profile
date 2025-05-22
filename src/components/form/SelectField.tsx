@@ -12,14 +12,20 @@ function SelectField({ label, options, ...rest }: Props) {
     <div className="flex flex-col gap-1 ">
       <Label>{label}</Label>
       <select
-        className="px-3 py-2 text-sm border border-gray-300 rounded-md outline-none cursor-pointer focus:ring-green-500 focus:ring"
+        className={`shape-base style-muted actions-input text-sm ${
+          rest.value == 0 && "text-gray-400"
+        }`}
         {...rest}
       >
-        <option value="" disabled>
+        <option value="" disabled hidden>
           Selecciona una opción
         </option>
         {options.map((opt) => (
-          <option key={opt.value} value={opt.value} className="text-sm">
+          <option
+            key={opt.value}
+            value={opt.value}
+            className="text-sm text-on-surface"
+          >
             {opt.label}
           </option>
         ))}

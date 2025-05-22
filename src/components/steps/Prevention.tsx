@@ -10,7 +10,7 @@ import {
 } from "../../config/fields";
 import type { StepProps } from "../../types/StepProps";
 import SelectField from "../form/SelectField";
-import ToggleButton from "../form/ToggleButton";
+import ToggleField from "../form/ToggleField";
 
 function Prevention({ formData, handleChange }: StepProps) {
   return (
