@@ -27,3 +27,7 @@ body {
     opacity: 1;
   }
 }
+
+.exporting-pdf .no-print {
+  display: none !important;
+}

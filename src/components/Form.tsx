@@ -57,12 +57,27 @@ function Form() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    const response = await fetch("http://127.0.0.1:8000/");
-    const message = await response.json();
-    console.log(message);
-    sessionStorage.setItem("report", JSON.stringify(message));
+
+    const transformedData = Object.fromEntries(
+      Object.entries(formData).map(([key, value]) =>
+        typeof value === "boolean" ? [key, value ? "Yes" : "No"] : [key, value]
+      )
+    );
+
+    const response = await fetch("http://127.0.0.1:8000/predict", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(transformedData),
+    });
+
+    const result = await response.json();
+    console.log(result);
+
+    sessionStorage.setItem("report", JSON.stringify(result));
     setLoading(false);
-    navigate("/report");
+    navigate("/testing");
   };
 
   return (
