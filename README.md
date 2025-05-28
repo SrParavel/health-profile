@@ -1,76 +1,81 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+<div align="left">
+    <img src="health-profile.png" width="40%" align="left" style="margin-right: 15px"/>
+    <div style="display: inline-block;">
+        <h2 style="display: inline-block; vertical-align: middle; margin-top: 0;">HEALTH-PROFILE</h2>
+        <p>
+	<em>Empowering health decisions through personalized risk insights.</em>
 </p>
-<p align="center"><h1 align="center">HEALTH-PROFILE</h1></p>
-<p align="center">
-	<em>Empowering health decisions through personalized insights.</em>
+        <p>
+	<img src="https://img.shields.io/github/license/SrParavel/health-profile?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/SrParavel/health-profile?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/SrParavel/health-profile?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/SrParavel/health-profile?style=flat&color=0080ff" alt="repo-language-count">
 </p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/SrParavel/health-profile?style=default&logo=opensourceinitiative&logoColor=white&color=00ff62" alt="license">
-	<img src="https://img.shields.io/github/last-commit/SrParavel/health-profile?style=default&logo=git&logoColor=white&color=00ff62" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/SrParavel/health-profile?style=default&color=00ff62" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/SrParavel/health-profile?style=default&color=00ff62" alt="repo-language-count">
+        <p>Built with the tools and technologies:</p>
+        <p>
+	<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/Docker-2496ED.svg?style=flat&logo=Docker&logoColor=white" alt="Docker">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
 </p>
-<p align="center"><!-- default option, no dependency badges. -->
-</p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
-<br>
+    </div>
+</div>
+<br clear="left"/>
 
-## 🔗 Table of Contents
+##  Table of Contents
 
-- [📍 Overview](#-overview)
-- [👾 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-  - [📂 Project Index](#-project-index)
-- [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
-- [📌 Project Roadmap](#-project-roadmap)
-- [🔰 Contributing](#-contributing)
-- [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
+I. [ Overview](#-overview)
+II. [ Features](#-features)
+III. [ Project Structure](#-project-structure)
+IV. [ Getting Started](#-getting-started)
+V. [ Project Roadmap](#-project-roadmap)
+VI. [ Contributing](#-contributing)
+VII. [ License](#-license)
+VIII. [ Acknowledgments](#-acknowledgments)
 
 ---
 
-## 📍 Overview
+##  Overview
 
-The Health Profile project is a user-friendly application designed to assess individual health risks efficiently. By guiding users through personalized health assessments, it empowers informed decision-making. Key features include multi-step forms, insightful health reports, and predictive analysis. Ideal for healthcare providers and individuals seeking proactive health management.
-
----
-
-## 👾 Features
-
-|     |      Feature      | Summary                                                                                                                                                                                                                         |
-| :-- | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ⚙️  | **Architecture**  | <ul><li>Modular architecture with clear separation of concerns.</li><li>Microservices-based design for scalability.</li><li>Utilizes event-driven architecture for asynchronous communication.</li></ul>                        |
-| 🔩  | **Code Quality**  | <ul><li>Follows coding standards and best practices.</li><li>Consistent code formatting and style.</li><li>Code reviews and automated code analysis tools in place.</li></ul>                                                   |
-| 📄  | **Documentation** | <ul><li>Comprehensive documentation covering codebase, APIs, and deployment processes.</li><li>Inline code comments for better code understanding.</li><li>API documentation using tools like Swagger.</li></ul>                |
-| 🔌  | **Integrations**  | <ul><li>Integration with various third-party services for data exchange.</li><li>CI/CD pipeline integration for automated testing and deployment.</li><li>Integration with monitoring tools for performance tracking.</li></ul> |
-| 🧩  |  **Modularity**   | <ul><li>Decoupled modules for easy maintenance and updates.</li><li>Reusable components and libraries for efficient development.</li><li>Dependency injection for loose coupling.</li></ul>                                     |
-| 🧪  |    **Testing**    | <ul><li>Comprehensive test suite covering unit, integration, and end-to-end tests.</li><li>Test automation for continuous testing and regression prevention.</li><li>Mocking and stubbing for external dependencies.</li></ul>  |
-| ⚡️ |  **Performance**  | <ul><li>Optimized code for faster response times.</li><li>Caching strategies for frequently accessed data.</li><li>Load testing and performance monitoring for scalability.</li></ul>                                           |
-| 🛡️  |   **Security**    | <ul><li>Secure coding practices to prevent common vulnerabilities.</li><li>Authentication and authorization mechanisms in place.</li><li>Data encryption and secure communication protocols.</li></ul>                          |
-| 📦  | **Dependencies**  | <ul><li>Regular dependency updates for security patches and feature enhancements.</li><li>Dependency management tools for version control and resolution.</li><li>Dependency scanning for vulnerabilities.</li></ul>            |
+The "health-profile" project is a user-friendly application designed to assess individual health risks and provide personalized recommendations. By guiding users through a series of structured questions about their health and lifestyle, it generates detailed health reports with insights and preventive measures. Ideal for individuals seeking proactive health management and tailored wellness guidance.
 
 ---
 
-## 📁 Project Structure
+##  Features
+
+|      | Feature         | Summary       |
+| :--- | :---:           | :---          |
+| ⚙️  | **Architecture**  | <ul><li>Configures **Astro** project with **React** and **Tailwind CSS** via **Vite**</li><li>Defines project configuration settings for efficient tool integration</li><li>Manages dependencies and version consistency using `risk-app/package-lock.json`</li><li>Utilizes **TypeScript** for strict type checking and JSX support</li></ul> |
+| 🔩 | **Code Quality**  | <ul><li>Defines structured interfaces for form data and user input</li><li>Encapsulates UI logic in reusable components like **Card** and **Button**</li><li>Implements **React hooks** for dynamic content updates</li><li>Manages global styles and layout consistency across pages</li></ul> |
+| 📄 | **Documentation** | <ul><li>Primary language: **TypeScript**</li><li>Extensive use of **TypeScript** and **JSON** for configuration and data handling</li><li>Package managers: **npm** and **pip** for dependency management</li><li>Includes usage and test commands for **npm** and **pip**</li></ul> |
+| 🔌 | **Integrations**  | <ul><li>FastAPI endpoint in `risk-api/main.py` for real-time risk prediction</li><li>Utilizes **Docker** for containerized deployment with `risk-api/dockerfile`</li><li>Generates health reports using **OpenAI's GPT-4.1-mini model** in `risk-api/reporter.py`</li><li>Facilitates data encoding and model training in Jupyter notebooks</li></ul> |
+| 🧩 | **Modularity**    | <ul><li>Organizes form steps and fields for structured user interaction</li><li>Encapsulates logic in components like **FormNav** and **FormHeader**</li><li>Separates concerns with distinct files for layouts, components, and utilities</li><li>Defines hyperparameters in `risk-mod/hyperparameters.json` for model training</li></ul> |
+| 🧪 | **Testing**       | <ul><li>Facilitates heart attack risk prediction testing with `risk-api/test.http`</li><li>Ensures data consistency and processing accuracy in test components</li><li>Generates structured test response data in `risk-app/src/utils/test_response.json`</li><li>Includes usage commands for testing with **npm** and **pip**</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Optimizes project performance with **React** and **Tailwind CSS** integration</li><li>Utilizes **Vite** for fast development and building tasks</li><li>Enhances user experience with smooth transitions and loading indicators</li><li>Generates formatted date strings efficiently using **React hooks**</li></ul> |
+
+---
+
+##  Project Structure
 
 ```sh
 └── health-profile/
+    ├── README.md
     ├── risk-api
     │   ├── __pycache__
+    │   │   ├── main.cpython-312.pyc
+    │   │   └── reporter.cpython-312.pyc
     │   ├── dockerfile
     │   ├── main.py
     │   ├── model
+    │   │   ├── columnas_categoricas.json
+    │   │   ├── columnas_entradas.json
+    │   │   └── modelo_entrenado.pkl
     │   ├── reporter.py
     │   ├── requirements.txt
     │   ├── test.http
     │   └── utils
+    │       └── predictor.py
     ├── risk-app
     │   ├── README.md
     │   ├── astro.config.mjs
@@ -78,20 +83,79 @@ The Health Profile project is a user-friendly application designed to assess ind
     │   ├── package-lock.json
     │   ├── package.json
     │   ├── public
+    │   │   ├── Logo.png
+    │   │   ├── checkicon.svg
+    │   │   ├── doctor.png
+    │   │   └── favicon.svg
     │   ├── src
+    │   │   ├── components
+    │   │   │   ├── Card.tsx
+    │   │   │   ├── Doctor.tsx
+    │   │   │   ├── Form.tsx
+    │   │   │   ├── Loader.tsx
+    │   │   │   ├── Logo.tsx
+    │   │   │   ├── ReportComponent.tsx
+    │   │   │   ├── TestComponent.tsx
+    │   │   │   ├── Typewriter.tsx
+    │   │   │   ├── form
+    │   │   │   │   ├── Button.tsx
+    │   │   │   │   ├── Label.tsx
+    │   │   │   │   ├── NumberField.tsx
+    │   │   │   │   ├── RadioGroup.tsx
+    │   │   │   │   ├── SelectField.tsx
+    │   │   │   │   └── ToggleField.tsx
+    │   │   │   └── steps
+    │   │   │       ├── CardiovascularHistory.tsx
+    │   │   │       ├── FormFooter.tsx
+    │   │   │       ├── FormHeader.tsx
+    │   │   │       ├── FormNav.tsx
+    │   │   │       ├── HealthCondition.tsx
+    │   │   │       ├── Lifestyle.tsx
+    │   │   │       ├── PersonalInformation.tsx
+    │   │   │       ├── PhysicalCapabilities.tsx
+    │   │   │       └── Prevention.tsx
+    │   │   ├── config
+    │   │   │   ├── fields.ts
+    │   │   │   └── steps.ts
+    │   │   ├── hooks
+    │   │   │   └── UseFormattedDate.ts
+    │   │   ├── layouts
+    │   │   │   └── Layout.astro
+    │   │   ├── pages
+    │   │   │   ├── index.astro
+    │   │   │   ├── report.astro
+    │   │   │   └── testing.astro
+    │   │   ├── styles
+    │   │   │   ├── forms.css
+    │   │   │   └── global.css
+    │   │   ├── types
+    │   │   │   ├── FormStep.ts
+    │   │   │   ├── StepProps.ts
+    │   │   │   ├── fields.ts
+    │   │   │   └── formData.ts
+    │   │   └── utils
+    │   │       └── test_response.json
     │   ├── tailwind.config.js
     │   └── tsconfig.json
     └── risk-mod
         ├── encoding.ipynb
         ├── graphs
+        │   ├── agecategory.png
+        │   ├── bmi.png
+        │   ├── generalhealth.png
+        │   ├── hadangina.png
+        │   ├── removedteeth.png
+        │   ├── sleephours.png
+        │   └── smokerstatus.png
         ├── heart_2022.csv
         ├── heart_2022_encoded.csv
         ├── hyperparameters.json
+        ├── requirements.txt
         └── training.ipynb
 ```
 
-### 📂 Project Index
 
+###  Project Index
 <details open>
 	<summary><b><code>HEALTH-PROFILE/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
@@ -107,15 +171,15 @@ The Health Profile project is a user-friendly application designed to assess ind
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/astro.config.mjs'>astro.config.mjs</a></b></td>
-				<td>Configure Astro project with React and Tailwind CSS integrations for seamless development and styling.</td>
+				<td>- Configures Astro project to integrate React and Tailwind CSS via Vite, enhancing the development environment and enabling seamless usage of these technologies within the project<br>- This file plays a crucial role in defining the project's configuration settings, ensuring efficient integration and utilization of the specified tools.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/package-lock.json'>package-lock.json</a></b></td>
-				<td>- The code file provided in the risk-app/package-lock.json directory of the project serves the purpose of managing dependencies and ensuring version consistency for the "health-profile" application<br>- It plays a crucial role in specifying the required packages and their versions, thereby facilitating a stable and reliable environment for the project's execution.</td>
+				<td>- The code file provided in `risk-app/package-lock.json` is crucial for managing dependencies and ensuring version consistency within the "health-profile" project<br>- It plays a key role in specifying the required packages and their versions, contributing to the overall stability and functionality of the codebase architecture.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/tsconfig.json'>tsconfig.json</a></b></td>
-				<td>- Configures TypeScript settings for strict type checking and JSX support in the project, extending a predefined configuration<br>- Includes type definitions and all files except 'dist' for compilation<br>- Enables JSX with React syntax and imports from 'react'.</td>
+				<td>- Configures TypeScript settings for strict type checking and JSX support, extending a predefined configuration<br>- Includes type definitions and all files except 'dist'<br>- Configured to use React JSX syntax and import source.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/tailwind.config.js'>tailwind.config.js</a></b></td>
@@ -123,7 +187,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/package.json'>package.json</a></b></td>
-				<td>- The `risk-app/package.json` file defines project dependencies and scripts for building, previewing, and developing the application<br>- It manages packages like Astro, React, Tailwind CSS, and others essential for the project's frontend development.</td>
+				<td>- The `risk-app/package.json` file manages dependencies and scripts for the project<br>- It orchestrates development, building, and previewing tasks using Astro, React, Tailwind CSS, and other libraries<br>- This file plays a crucial role in setting up the project environment and facilitating seamless development workflows.</td>
 			</tr>
 			</table>
 			<details>
@@ -135,11 +199,11 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/types/formData.ts'>formData.ts</a></b></td>
-								<td>- Defines the structure for form data fields, including binary, numerical, and categorical values<br>- Sets default values for each field<br>- This interface serves as a blueprint for capturing user health information within the risk assessment application.</td>
+								<td>- Define the structure for form data fields, including binary, numeric, and categorical values<br>- Set default values for each field in the form<br>- This interface establishes a standardized format for capturing user input related to health and lifestyle information within the project's architecture.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/types/fields.ts'>fields.ts</a></b></td>
-								<td>- Define field types for risk assessment data: Binary, Numeric, and Categorical, along with their properties like name, label, and description<br>- Categorical fields include options for selection<br>- This file structures the data model for capturing risk-related information in the application.</td>
+								<td>Define field types for risk assessment data: Binary, Numeric, and Categorical, each with specific properties.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/types/StepProps.ts'>StepProps.ts</a></b></td>
@@ -147,7 +211,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/types/FormStep.ts'>FormStep.ts</a></b></td>
-								<td>- Defines the structure for form steps in the project, including title, description, context, fields, and icon<br>- This code file plays a crucial role in organizing and displaying form-related information within the application architecture.</td>
+								<td>- Defines a structured interface for form steps within the project, specifying title, description, context, fields, and icon<br>- This code file plays a crucial role in organizing and standardizing the information displayed in each step of the form, ensuring consistency and clarity throughout the user interaction flow.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -158,7 +222,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/layouts/Layout.astro'>Layout.astro</a></b></td>
-								<td>- Defines the layout structure and styling for the project's web pages, ensuring a consistent visual presentation<br>- Integrates global and form-specific styles, sets the document metadata, and establishes a flexible font source<br>- Maintains a responsive design with a centered content layout for a seamless user experience.</td>
+								<td>- Define the global layout styling and structure for the project, ensuring a consistent look and feel across all pages<br>- Import necessary styles and fonts, set metadata, and define the basic HTML structure<br>- This file serves as the foundation for rendering content within a standardized layout, enhancing user experience and maintaining visual coherence throughout the application.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -169,11 +233,11 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/styles/forms.css'>forms.css</a></b></td>
-								<td>- Define consistent styles for form elements and actions across the project, enhancing user interface aesthetics and interaction<br>- The code in 'forms.css' centralizes styling configurations for shapes, backgrounds, text colors, and interactive behaviors, ensuring a cohesive visual and functional experience throughout the application.</td>
+								<td>- Define consistent styles for form elements and actions across the project, enhancing user experience and visual coherence<br>- The CSS file centralizes design properties like shapes, colors, and text styles, ensuring a unified look and feel throughout the application.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/styles/global.css'>global.css</a></b></td>
-								<td>- Define global styles for the project, including layout grids and animations<br>- Import Tailwind CSS and set base styles for elements like body and form<br>- Implement a fade-in animation and a rule for hiding elements during PDF export.</td>
+								<td>- Define global styles for the project, including font and grid layout configurations<br>- Import Tailwind CSS for styling consistency<br>- Implement animations for fading effects<br>- Hide elements when exporting to PDF.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -184,11 +248,11 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/config/fields.ts'>fields.ts</a></b></td>
-								<td>- Define and export various fields for collecting user health data, including binary, categorical, and numeric fields<br>- These fields capture information such as physical activities, health conditions, demographics, and health metrics<br>- The file plays a crucial role in structuring and defining the data fields required for the health risk assessment application within the project architecture.</td>
+								<td>- Define binary, categorical, and numeric fields for health-related questions and data input<br>- These fields capture information on physical activities, health conditions, habits, demographics, and health metrics<br>- They play a crucial role in structuring and organizing user input within the risk assessment application, aiding in data collection and analysis for health-related insights.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/config/steps.ts'>steps.ts</a></b></td>
-								<td>- Define form steps for capturing personal, cardiovascular, lifestyle, physical, health conditions, and preventive care data<br>- Each step includes specific fields and context to personalize health assessments and recommendations<br>- Icons visually represent each step for a user-friendly experience.</td>
+								<td>- Define form steps for collecting user health data, categorizing into Personal Information, Cardiovascular History, Lifestyle Factors, Physical Functioning, Health Conditions, and Preventive Care<br>- Each step includes specific fields and context to guide users through the health assessment process, enhancing personalization and preventive care recommendations.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -199,35 +263,35 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/ReportComponent.tsx'>ReportComponent.tsx</a></b></td>
-								<td>- Displays a health report fetched from session storage, providing key health insights and recommendations<br>- The component renders the report's general outcome, critical factors, positive habits, and additional notes for user reference<br>- It ensures a seamless user experience by handling data retrieval and display efficiently.</td>
+								<td>- Displays a health report fetched from session storage, providing key health metrics and recommendations<br>- The component renders the report's sections and details, ensuring a seamless user experience within the application's health monitoring feature.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Logo.tsx'>Logo.tsx</a></b></td>
-								<td>- Defines the logo component for the Cardio Risk app, incorporating the LuHeartPulse icon from react-icons/lu<br>- Displays the app name with a heart icon and emphasizes the word "Risk." The component is styled with specific classes for visual consistency.</td>
+								<td>Defines the Logo component for the project, displaying a logo with a heart pulse icon and text indicating "Cardio Risk." The component is designed to be visually appealing and informative, contributing to the overall user interface and branding of the application.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Loader.tsx'>Loader.tsx</a></b></td>
-								<td>- Defines a Loader component that displays a spinning circle animation using the LuLoaderCircle icon from react-icons/lu<br>- The component accepts a className prop for customization.</td>
+								<td>Implements a loader component using LuLoaderCircle from react-icons/lu, enhancing the user experience by displaying a spinning animation while content loads.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Form.tsx'>Form.tsx</a></b></td>
-								<td>- Facilitates a multi-step form for collecting user health data, guiding through sections like personal info, lifestyle, and health conditions<br>- Handles form submission, data transformation, and API interaction for predictive analysis<br>- Implements navigation controls and dynamic rendering based on form progress.</td>
+								<td>- Manages a multi-step form for collecting user data, displaying each step with relevant information and navigation options<br>- Handles form submission, data transformation, and API interaction for prediction<br>- Implements a smooth user experience with loading indicators and transitions between steps.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Doctor.tsx'>Doctor.tsx</a></b></td>
-								<td>- Defines a reusable React component for displaying doctor information with customizable children elements<br>- The component enhances codebase modularity and reusability by encapsulating doctor-related UI logic.</td>
+								<td>- Defines a reusable Doctor component for displaying medical professionals in the UI<br>- It renders an image of a doctor alongside provided content, styled with specific classes for consistent appearance<br>- This component enhances the project's architecture by encapsulating doctor-related UI logic and promoting code reusability.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/TestComponent.tsx'>TestComponent.tsx</a></b></td>
-								<td>- Generates a cardiovascular health report with risk statistics, critical factors, observations, and recommendations<br>- Allows users to download a PDF report of their cardiovascular assessment<br>- Utilizes React components, hooks, and external libraries for PDF generation<br>- Supports data persistence using sessionStorage<br>- Promotes informed health decisions with personalized insights.</td>
+								<td>- Generates a detailed cardiovascular health report for users, including risk statistics, general results, critical factors, observations, and recommendations<br>- Allows users to download the report as a PDF for informed decision-making<br>- Displays a personalized message and contact information for further assistance.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Card.tsx'>Card.tsx</a></b></td>
-								<td>- Defines a reusable Card component that enhances the user interface by displaying content within a styled container<br>- This component extends HTML attributes and leverages React to render a visually appealing card with a shadow effect and rounded corners<br>- It promotes code reusability and improves the overall design consistency within the project architecture.</td>
+								<td>- Defines a reusable Card component for displaying content with a shadow effect and rounded corners<br>- The component accepts children elements and additional styling properties<br>- It enhances the project's architecture by encapsulating card presentation logic, promoting code reusability, and maintaining a consistent UI design across the application.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/Typewriter.tsx'>Typewriter.tsx</a></b></td>
-								<td>- Implements a typewriter effect for displaying text in a gradual manner<br>- Uses React hooks to update the displayed text character by character at a specified speed<br>- The component renders each character with a fade-in effect, creating a dynamic and engaging user experience.</td>
+								<td>- Implements a Typewriter component that animates text display in a gradual manner<br>- The component accepts text input and an optional speed parameter to control the typing animation<br>- It leverages React hooks to manage the displayed text state and update it dynamically<br>- This component enhances user experience by creating a typewriter effect for text content.</td>
 							</tr>
 							</table>
 							<details>
@@ -236,27 +300,27 @@ The Health Profile project is a user-friendly application designed to assess ind
 									<table>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/NumberField.tsx'>NumberField.tsx</a></b></td>
-										<td>- Defines a reusable NumberField component for rendering input fields with labels and units<br>- It enhances form usability by providing a structured layout for numeric input fields within the project's component architecture.</td>
+										<td>- Defines a reusable NumberField component for rendering input fields with labels and units<br>- It enhances form usability by providing a structured layout for numeric inputs<br>- This component encapsulates input handling logic and styling, promoting consistency across the application's form components.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/Button.tsx'>Button.tsx</a></b></td>
-										<td>- The Button component enhances user interface by rendering styled buttons with primary or secondary variants<br>- It leverages React to manage button attributes and appearance, contributing to a cohesive design system within the project architecture.</td>
+										<td>- The Button component in the risk-app project renders a customizable button with primary or secondary styling<br>- It encapsulates button behavior and appearance, enhancing reusability and consistency across the application.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/SelectField.tsx'>SelectField.tsx</a></b></td>
-										<td>- Enables rendering a select field with a label and options for categorical selection<br>- The component enhances user interaction by providing a dropdown menu with predefined choices<br>- This contributes to a seamless user experience within the form components of the project.</td>
+										<td>- Enables rendering a select field with a label and categorical options<br>- The component enhances user interaction by allowing selection from a list of options<br>- This contributes to a seamless form input experience within the project's architecture.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/Label.tsx'>Label.tsx</a></b></td>
-										<td>Defines a reusable React component for labels in forms, enhancing accessibility and styling consistency across the project.</td>
+										<td>Defines a reusable React component for labels with customizable styling and attributes, enhancing form elements in the project's architecture.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/ToggleField.tsx'>ToggleField.tsx</a></b></td>
-										<td>- Implements a toggle field component for forms, including a label, description, and checkbox with a check icon<br>- Styled based on the checked state, it enhances user interaction in the risk management application.</td>
+										<td>- ToggleField component renders a customizable toggle input with a label and description<br>- It leverages the Label component and React icons for styling<br>- The component encapsulates the logic for handling the toggle state and appearance based on user interaction.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/form/RadioGroup.tsx'>RadioGroup.tsx</a></b></td>
-										<td>- RadioGroup component renders a group of radio buttons with a specified label and options<br>- It enhances user interaction by allowing selection from a list of categorical options<br>- This component encapsulates the logic for rendering and handling radio button inputs within the form structure of the application.</td>
+										<td>- RadioGroup component renders a group of radio buttons with a specified label and options<br>- It enhances user interaction by allowing selection from a list of categorical options<br>- This component plays a crucial role in the form section of the project, facilitating user input and data submission.</td>
 									</tr>
 									</table>
 								</blockquote>
@@ -271,35 +335,35 @@ The Health Profile project is a user-friendly application designed to assess ind
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/FormHeader.tsx'>FormHeader.tsx</a></b></td>
-										<td>- FormHeader component renders a header for each step in a multi-step form, displaying step number, title, and description<br>- It enhances user experience by providing clear navigation and context within the form.</td>
+										<td>- FormHeader component renders a header for each step in a multi-step form, displaying step information and titles<br>- It enhances the user experience by providing clear navigation cues and context within the form.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/Lifestyle.tsx'>Lifestyle.tsx</a></b></td>
-										<td>- Implement a lifestyle component that renders fields for alcohol consumption, smoking habits, sleep patterns, and mental health metrics<br>- This component integrates with the form to capture user data efficiently.</td>
+										<td>- Defines lifestyle-related form fields for a step in the risk assessment app<br>- Handles user input for alcohol consumption, smoking habits, sleep duration, and mental health status<br>- Utilizes toggle, select, and number input fields to capture relevant data<br>- Contributes to the user journey by gathering crucial lifestyle information for risk evaluation.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/CardiovascularHistory.tsx'>CardiovascularHistory.tsx</a></b></td>
-										<td>- Implements a component for capturing cardiovascular history in the risk assessment form<br>- It renders toggle and select fields for indicating angina, stroke, and diabetes history<br>- The component structure aligns with the project's form-based architecture, enhancing user input and data collection for risk evaluation.</td>
+										<td>- Implements a component for capturing cardiovascular history data in the risk assessment application<br>- It renders toggle and select fields for indicating angina, stroke, and diabetes history<br>- The component is designed to handle user input and update the form data accordingly.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/HealthCondition.tsx'>HealthCondition.tsx</a></b></td>
-										<td>- Defines a component for managing health conditions in the risk assessment form<br>- Handles toggling various health conditions like asthma, COPD, kidney disease, and arthritis<br>- Utilizes SelectField and ToggleField components for user interaction<br>- Contributes to the form's functionality by capturing and updating health-related data.</td>
+										<td>- Defines a component for managing health conditions in the risk assessment form<br>- Handles toggling various health conditions like asthma, COPD, kidney disease, and arthritis<br>- Utilizes SelectField and ToggleField components for user interaction<br>- Facilitates updating form data based on user input.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/Prevention.tsx'>Prevention.tsx</a></b></td>
-										<td>- Implements a step for preventive health measures, allowing users to input data related to vaccinations and health screenings<br>- This component integrates with the form fields configuration and handles user interactions for updating the data.</td>
+										<td>- Implements a component for handling prevention-related data input in the project's form system<br>- It renders select fields for various prevention-related questions and allows users to update their responses<br>- This component plays a crucial role in capturing essential prevention data within the application's workflow.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/PhysicalCapabilities.tsx'>PhysicalCapabilities.tsx</a></b></td>
-										<td>- Defines a step component for capturing physical capabilities data in the form<br>- Handles toggling physical activities, difficulty walking, and input for physical health days<br>- Integrates with form data and triggers change events.</td>
+										<td>- Enables user input for physical capabilities in the risk assessment form, handling activities, walking difficulties, and health days<br>- Integrates with form components and config fields for seamless data management.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/PersonalInformation.tsx'>PersonalInformation.tsx</a></b></td>
-										<td>- Enables users to input personal information for risk assessment by displaying select fields for sex, age category, race/ethnicity, and general health, along with a number field for BMI calculation<br>- The component facilitates data entry and updates the form state accordingly, contributing to the overall risk assessment process within the application.</td>
+										<td>- Enables users to input personal information such as sex, age category, race/ethnicity, and general health status<br>- Facilitates data entry through select fields and a BMI number field<br>- Supports seamless handling of form data changes.</td>
 									</tr>
 									<tr>
 										<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/components/steps/FormFooter.tsx'>FormFooter.tsx</a></b></td>
-										<td>- FormFooter component renders navigation buttons for a multi-step form, enabling users to move forward, go back, and submit data<br>- It dynamically adjusts button visibility based on the current step and loading state, enhancing the form's usability and guiding users through the process seamlessly.</td>
+										<td>- FormFooter component renders navigation buttons for a multi-step form, enabling users to move forward or backward within the form<br>- It dynamically adjusts button visibility based on the current step and loading state, providing a seamless user experience.</td>
 									</tr>
 									</table>
 								</blockquote>
@@ -312,7 +376,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/hooks/UseFormattedDate.ts'>UseFormattedDate.ts</a></b></td>
-								<td>Generates formatted date strings for display in the risk management application, enhancing user experience and readability.</td>
+								<td>Generates a formatted date string for display in the risk application by leveraging React's useMemo hook.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -323,11 +387,11 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/pages/index.astro'>index.astro</a></b></td>
-								<td>- Integrate a form component into the main layout of the risk management application to enhance user interaction and data collection<br>- This file plays a crucial role in structuring the user interface by embedding the form within the overall layout, ensuring a seamless and intuitive user experience.</td>
+								<td>Integrates a form component into the main layout of the risk management application, facilitating user interaction with client data.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/pages/testing.astro'>testing.astro</a></b></td>
-								<td>- Improve user experience by rendering a test component within a layout on the testing page<br>- This setup enhances the visual presentation and functionality of the page, contributing to a seamless and engaging user interaction.</td>
+								<td>Facilitates rendering of a test component within the layout, enhancing the user interface of the testing page.</td>
 							</tr>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/pages/report.astro'>report.astro</a></b></td>
@@ -342,7 +406,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 							<table>
 							<tr>
 								<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-app/src/utils/test_response.json'>test_response.json</a></b></td>
-								<td>- The code file in `risk-app/src/utils/test_response.json` provides structured data for risk assessment reports, including probabilities, general health insights, critical observations, positive notes, and personalized recommendations<br>- It plays a crucial role in generating comprehensive health risk assessments within the project architecture.</td>
+								<td>- The code file in risk-app/src/utils/test_response.json provides structured data for risk assessment reports, including probabilities, general health insights, critical observations, positive feedback, and personalized recommendations<br>- It plays a crucial role in generating comprehensive health risk assessments based on user input, guiding individuals towards healthier lifestyle choices and preventive measures.</td>
 							</tr>
 							</table>
 						</blockquote>
@@ -357,15 +421,19 @@ The Health Profile project is a user-friendly application designed to assess ind
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-mod/encoding.ipynb'>encoding.ipynb</a></b></td>
-				<td>- The code file "encoding.ipynb" in the "risk-mod" directory of the project serves the purpose of implementing encoding techniques for risk assessment models<br>- It contributes to the project's architecture by providing a structured approach to encoding data for risk analysis, enhancing the overall functionality and accuracy of the risk assessment models.</td>
+				<td>- The `encoding.ipynb` file in the `risk-mod` directory of the project serves the purpose of implementing data encoding techniques<br>- This code file is crucial for transforming and encoding data to ensure efficient processing and analysis within the project's architecture.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-mod/training.ipynb'>training.ipynb</a></b></td>
-				<td>- The code file "training.ipynb" in the "risk-mod" directory is crucial for training machine learning models to predict and mitigate risks within the project<br>- It plays a key role in analyzing data, building models, and improving risk management strategies<br>- This code file is essential for enhancing the overall risk-mod architecture by enabling the development of accurate risk prediction models.</td>
+				<td>- The code file "training.ipynb" in the "risk-mod" directory is crucial for training machine learning models to predict and mitigate risks within the project<br>- It plays a key role in analyzing data, building models, and improving risk assessment strategies<br>- This file is essential for enhancing the project's overall architecture by enabling accurate risk predictions and informed decision-making.</td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-mod/requirements.txt'>requirements.txt</a></b></td>
+				<td>- Manages project dependencies for the risk-mod module, ensuring compatibility and stability across various libraries and tools<br>- This file specifies the required versions of external packages essential for risk-mod's functionality within the broader project architecture.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-mod/hyperparameters.json'>hyperparameters.json</a></b></td>
-				<td>Define hyperparameters for risk-mod model: sampling strategy, k_neighbors, learning rate, num_leaves, max_depth, feature fraction, bagging fraction, bagging frequency, and n_estimators.</td>
+				<td>Define hyperparameters for risk-mod model training.</td>
 			</tr>
 			</table>
 		</blockquote>
@@ -376,23 +444,23 @@ The Health Profile project is a user-friendly application designed to assess ind
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/main.py'>main.py</a></b></td>
-				<td>- Implements a FastAPI server for predicting heart disease risk based on user input<br>- Loads a pre-trained model and input columns, processes user data, and generates a risk prediction along with a detailed report<br>- The server provides endpoints for home and prediction, handling exceptions gracefully.</td>
+				<td>- The code in risk-api/main.py serves as a FastAPI endpoint for predicting heart disease risk based on user input<br>- It loads a pre-trained model, processes input data, and returns the risk probability along with a health report<br>- This endpoint enhances the project's functionality by providing real-time risk assessment for users.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/dockerfile'>dockerfile</a></b></td>
-				<td>- Facilitates building and running a Python web application within a Docker container<br>- Installs necessary dependencies, sets up the working directory, copies project files, exposes the application on port 8000, and specifies the command to start the web server<br>- This Dockerfile streamlines the deployment process for the risk-api project.</td>
+				<td>- Facilitates building and running the risk-api service within a Docker container<br>- Sets up the necessary environment, installs dependencies, and configures the service to run on port 8000 using Uvicorn<br>- This Dockerfile streamlines the deployment process for the risk-api service in the project architecture.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/requirements.txt'>requirements.txt</a></b></td>
-				<td>- Facilitates dependency management by listing required packages with specific versions<br>- Supports seamless integration of essential libraries for the project's functionality and ensures compatibility across the codebase.</td>
+				<td>- Facilitates dependency management by specifying required packages and versions in the project<br>- This file ensures compatibility and stability across the codebase by listing essential libraries and their versions for seamless integration and execution.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/test.http'>test.http</a></b></td>
-				<td>- Enables prediction testing for heart attack risk based on various health factors<br>- Initiates a POST request to the prediction endpoint with specific health data inputs<br>- Supports evaluating heart attack risk using a structured JSON payload<br>- This functionality aids in assessing potential heart attack risks for individuals within the system.</td>
+				<td>- Facilitates heart attack risk prediction by sending a POST request with specific health data to the server<br>- The test is designed to evaluate the likelihood of a heart attack based on various health factors provided in the request payload.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/reporter.py'>reporter.py</a></b></td>
-				<td>- Generate custom health reports for patients based on provided data and risk probability<br>- Utilizes OpenAI's GPT-4.1-mini model to create empathetic and professional reports in JSON format.</td>
+				<td>- Generate custom health reports for patients based on provided data and risk probability using OpenAI's GPT-4.1-mini model<br>- The function leverages natural language processing to create empathetic and professional reports in JSON format, enhancing the healthcare service provided by the system.</td>
 			</tr>
 			</table>
 			<details>
@@ -416,7 +484,7 @@ The Health Profile project is a user-friendly application designed to assess ind
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/SrParavel/health-profile/blob/master/risk-api/utils/predictor.py'>predictor.py</a></b></td>
-						<td>Enables heart attack risk prediction for individuals using specified model and data, ensuring correct column alignment and categorical conversion.</td>
+						<td>- Predicts heart attack risk for an individual using a specified model and input data<br>- Reorganizes input data, ensures correct columns, and converts categorical columns<br>- Returns the prediction and probability of a heart attack.</td>
 					</tr>
 					</table>
 				</blockquote>
@@ -426,35 +494,34 @@ The Health Profile project is a user-friendly application designed to assess ind
 </details>
 
 ---
+##  Getting Started
 
-## 🚀 Getting Started
-
-### ☑️ Prerequisites
+###  Prerequisites
 
 Before getting started with health-profile, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** TypeScript
 - **Package Manager:** Npm, Pip
 
-### ⚙️ Installation
+
+###  Installation
 
 Install health-profile using one of the following methods:
 
 **Build from source:**
 
 1. Clone the health-profile repository:
-
 ```sh
 ❯ git clone https://github.com/SrParavel/health-profile
 ```
 
 2. Navigate to the project directory:
-
 ```sh
 ❯ cd health-profile
 ```
 
 3. Install the project dependencies:
+
 
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -462,14 +529,17 @@ Install health-profile using one of the following methods:
 ❯ npm install
 ```
 
+
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-INSTALL-COMMAND-HERE'
 ```
 
-### 🤖 Usage
 
+
+
+###  Usage
 Run health-profile using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -477,14 +547,15 @@ Run health-profile using the following command:
 ❯ npm start
 ```
 
+
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-RUN-COMMAND-HERE'
 ```
 
-### 🧪 Testing
 
+###  Testing
 Run the test suite using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -492,23 +563,24 @@ Run the test suite using the following command:
 ❯ npm test
 ```
 
+
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-TEST-COMMAND-HERE'
 ```
 
+
 ---
+##  Project Roadmap
 
-## 📌 Project Roadmap
-
-- [x] **`Task 1`**: <strike>Implement feature one.</strike>
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
 - [ ] **`Task 3`**: Implement feature three.
 
 ---
 
-## 🔰 Contributing
+##  Contributing
 
 - **💬 [Join the Discussions](https://github.com/SrParavel/health-profile/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/SrParavel/health-profile/issues)**: Submit bugs found or log feature requests for the `health-profile` project.
@@ -551,13 +623,13 @@ Run the test suite using the following command:
 
 ---
 
-## 🎗 License
+##  License
 
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-## 🙌 Acknowledgments
+##  Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
 
