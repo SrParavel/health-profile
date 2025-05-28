@@ -1,0 +1,11 @@
+{
+    "sampling_strategy": 0.6816196444751116,
+    "k_neighbors": 4,
+    "learning_rate": 0.015046991934710305,
+    "num_leaves": 53,
+    "max_depth": 18,
+    "feature_fraction": 0.7367191762636242,
+    "bagging_fraction": 0.8933116477096834,
+    "bagging_freq": 6,
+    "n_estimators": 122
+}

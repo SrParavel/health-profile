@@ -1,0 +1,29 @@
+### Test de predicción para ataque al corazón
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "Sex": "Female",
+  "GeneralHealth": "Excelent",
+  "PhysicalHealthDays": 30,
+  "MentalHealthDays": 30,
+  "PhysicalActivities": "No",
+  "SleepHours": 8,
+  "HadAngina": "No",
+  "HadStroke": "No",
+  "HadAsthma": "No",
+  "HadSkinCancer": "No",
+  "HadCOPD": "No",
+  "HadDepressiveDisorder": "No",
+  "HadKidneyDisease": "No",
+  "HadArthritis": "No",
+  "HadDiabetes": "No",
+  "DifficultyWalking": "No",
+  "SmokerStatus": "Never smoked",
+  "ECigaretteUsage": "No",
+  "RaceEthnicityCategory": "White",
+  "AgeCategory": "18-24",
+  "BMI": 24.5,
+  "AlcoholDrinkers": "No",
+  "TetanusLast10Tdap": "No",
+}

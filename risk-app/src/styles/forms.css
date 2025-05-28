@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+.shape-sm {
+  @apply rounded-lg px-4 py-1;
+}
+
+.shape-base {
+  @apply rounded-lg px-4 py-2;
+}
+
+.shape-lg {
+  @apply rounded-lg px-4 py-4;
+}
+
+.style-surface {
+  @apply bg-white outline-white;
+}
+
+.style-accent {
+  @apply bg-green-500 outline-green-500;
+}
+
+.style-muted {
+  @apply bg-gray-100 outline-gray-100;
+}
+
+.style-selected {
+  @apply bg-green-100 outline-2 outline-green-500;
+}
+
+.text-on-surface {
+  @apply text-gray-800;
+}
+
+.text-accent {
+  @apply text-green-500;
+}
+
+.text-on-accent {
+  @apply text-white;
+}
+
+.text-muted {
+  @apply text-gray-100;
+}
+
+.text-on-muted {
+  @apply text-gray-700;
+}
+
+.text-on-muted-secondary {
+  @apply text-gray-400;
+}
+
+.actions-input {
+  @apply focus:ring-2 focus:ring-green-500 outline-none cursor-pointer;
+}
+
+.actions-button {
+  @apply hover:contrast-75 cursor-pointer active:scale-95 transition disabled:pointer-events-none disabled:opacity-50;
+}

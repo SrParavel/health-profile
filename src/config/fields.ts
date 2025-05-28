@@ -1,8 +1,4 @@
-import type {
-  BinaryField,
-  CategoricalField,
-  NumericField,
-} from "../types/fields";
+import type { BinaryField, CategoricalField, NumericField } from "../types/fields";
 
 // Binary Fields
 export const physicalActivities: BinaryField = {
@@ -26,8 +22,7 @@ export const hadAngina: BinaryField = {
 export const hadStroke: BinaryField = {
   name: "HadStroke",
   label: "Ha tenido un derrame cerebral",
-  description:
-    "¿Has sufrido algún derrame cerebral o accidente cerebrovascular?",
+  description: "¿Has sufrido algún derrame cerebral o accidente cerebrovascular?",
 };
 
 export const hadAsthma: BinaryField = {
@@ -45,8 +40,7 @@ export const hadSkinCancer: BinaryField = {
 export const hadCOPD: BinaryField = {
   name: "HadCOPD",
   label: "Tiene EPOC",
-  description:
-    "¿Has sido diagnosticado con EPOC (Enfermedad Pulmonar Obstructiva Crónica)?",
+  description: "¿Has sido diagnosticado con EPOC (Enfermedad Pulmonar Obstructiva Crónica)?",
 };
 
 export const hadDepressiveDisorder: BinaryField = {
@@ -100,8 +94,7 @@ export const difficultyDressingBathing: BinaryField = {
 export const difficultyErrands: BinaryField = {
   name: "DifficultyErrands",
   label: "Dificultad para realizar diligencias",
-  description:
-    "¿Tienes dificultad para realizar actividades diarias como ir de compras o al banco?",
+  description: "¿Tienes dificultad para realizar actividades diarias como ir de compras o al banco?",
 };
 
 export const chestScan: BinaryField = {
@@ -137,8 +130,7 @@ export const pneumoVaxEver: BinaryField = {
 export const highRiskLastYear: BinaryField = {
   name: "HighRiskLastYear",
   label: "Alto riesgo en el último año",
-  description:
-    "¿Has estado en una situación de alto riesgo para tu salud en el último año?",
+  description: "¿Has estado en una situación de alto riesgo para tu salud en el último año?",
 };
 
 // Categorical Fields
