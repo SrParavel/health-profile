@@ -34,9 +34,7 @@ function Form() {
   const FormStep = steps[step];
   const { title, context, description } = formSteps[step];
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-  ) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
     const checked = (e.target as HTMLInputElement).checked;
 
@@ -81,18 +79,9 @@ function Form() {
   };
 
   return (
-    <Card className="w-4xl">
-      <form
-        id="form"
-        onSubmit={handleSubmit}
-        className=" flex flex-col justify-between"
-      >
-        <FormNav
-          className="[grid-area:nav]"
-          step={step}
-          steps={formSteps}
-          setStep={setStep}
-        ></FormNav>
+    <Card className="max-w-4xl">
+      <form id="form" onSubmit={handleSubmit} className=" flex flex-col justify-between">
+        <FormNav className="[grid-area:nav]" step={step} steps={formSteps} setStep={setStep}></FormNav>
 
         <FormHeader
           className="[grid-area:header]"
@@ -102,10 +91,7 @@ function Form() {
           stepDescription={description}
         />
 
-        <div
-          key={step}
-          className="fade-in overflow-y-auto px-6 py-4 [grid-area:form]"
-        >
+        <div key={step} className="fade-in overflow-y-auto px-6 py-4 [grid-area:form]">
           <FormStep formData={formData} handleChange={handleChange} />
         </div>
 

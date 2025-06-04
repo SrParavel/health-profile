@@ -23,7 +23,7 @@
 </div>
 <br clear="left"/>
 
-##  Table of Contents
+## Table of Contents
 
 I. [ Overview](#-overview)
 II. [ Features](#-features)
@@ -36,27 +36,27 @@ VIII. [ Acknowledgments](#-acknowledgments)
 
 ---
 
-##  Overview
+## Overview
 
 The "health-profile" project is a user-friendly application designed to assess individual health risks and provide personalized recommendations. By guiding users through a series of structured questions about their health and lifestyle, it generates detailed health reports with insights and preventive measures. Ideal for individuals seeking proactive health management and tailored wellness guidance.
 
 ---
 
-##  Features
+## Features
 
-|      | Feature         | Summary       |
-| :--- | :---:           | :---          |
-| ⚙️  | **Architecture**  | <ul><li>Configures **Astro** project with **React** and **Tailwind CSS** via **Vite**</li><li>Defines project configuration settings for efficient tool integration</li><li>Manages dependencies and version consistency using `risk-app/package-lock.json`</li><li>Utilizes **TypeScript** for strict type checking and JSX support</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Defines structured interfaces for form data and user input</li><li>Encapsulates UI logic in reusable components like **Card** and **Button**</li><li>Implements **React hooks** for dynamic content updates</li><li>Manages global styles and layout consistency across pages</li></ul> |
-| 📄 | **Documentation** | <ul><li>Primary language: **TypeScript**</li><li>Extensive use of **TypeScript** and **JSON** for configuration and data handling</li><li>Package managers: **npm** and **pip** for dependency management</li><li>Includes usage and test commands for **npm** and **pip**</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>FastAPI endpoint in `risk-api/main.py` for real-time risk prediction</li><li>Utilizes **Docker** for containerized deployment with `risk-api/dockerfile`</li><li>Generates health reports using **OpenAI's GPT-4.1-mini model** in `risk-api/reporter.py`</li><li>Facilitates data encoding and model training in Jupyter notebooks</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Organizes form steps and fields for structured user interaction</li><li>Encapsulates logic in components like **FormNav** and **FormHeader**</li><li>Separates concerns with distinct files for layouts, components, and utilities</li><li>Defines hyperparameters in `risk-mod/hyperparameters.json` for model training</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Facilitates heart attack risk prediction testing with `risk-api/test.http`</li><li>Ensures data consistency and processing accuracy in test components</li><li>Generates structured test response data in `risk-app/src/utils/test_response.json`</li><li>Includes usage commands for testing with **npm** and **pip**</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimizes project performance with **React** and **Tailwind CSS** integration</li><li>Utilizes **Vite** for fast development and building tasks</li><li>Enhances user experience with smooth transitions and loading indicators</li><li>Generates formatted date strings efficiently using **React hooks**</li></ul> |
+|     |      Feature      | Summary                                                                                                                                                                                                                                                                                                                                               |
+| :-- | :---------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ⚙️  | **Architecture**  | <ul><li>Configures **Astro** project with **React** and **Tailwind CSS** via **Vite**</li><li>Defines project configuration settings for efficient tool integration</li><li>Manages dependencies and version consistency using `risk-app/package-lock.json`</li><li>Utilizes **TypeScript** for strict type checking and JSX support</li></ul>        |
+| 🔩  | **Code Quality**  | <ul><li>Defines structured interfaces for form data and user input</li><li>Encapsulates UI logic in reusable components like **Card** and **Button**</li><li>Implements **React hooks** for dynamic content updates</li><li>Manages global styles and layout consistency across pages</li></ul>                                                       |
+| 📄  | **Documentation** | <ul><li>Primary language: **TypeScript**</li><li>Extensive use of **TypeScript** and **JSON** for configuration and data handling</li><li>Package managers: **npm** and **pip** for dependency management</li><li>Includes usage and test commands for **npm** and **pip**</li></ul>                                                                  |
+| 🔌  | **Integrations**  | <ul><li>FastAPI endpoint in `risk-api/main.py` for real-time risk prediction</li><li>Utilizes **Docker** for containerized deployment with `risk-api/dockerfile`</li><li>Generates health reports using **OpenAI's GPT-4.1-mini model** in `risk-api/reporter.py`</li><li>Facilitates data encoding and model training in Jupyter notebooks</li></ul> |
+| 🧩  |  **Modularity**   | <ul><li>Organizes form steps and fields for structured user interaction</li><li>Encapsulates logic in components like **FormNav** and **FormHeader**</li><li>Separates concerns with distinct files for layouts, components, and utilities</li><li>Defines hyperparameters in `risk-mod/hyperparameters.json` for model training</li></ul>            |
+| 🧪  |    **Testing**    | <ul><li>Facilitates heart attack risk prediction testing with `risk-api/test.http`</li><li>Ensures data consistency and processing accuracy in test components</li><li>Generates structured test response data in `risk-app/src/utils/test_response.json`</li><li>Includes usage commands for testing with **npm** and **pip**</li></ul>              |
+| ⚡️ |  **Performance**  | <ul><li>Optimizes project performance with **React** and **Tailwind CSS** integration</li><li>Utilizes **Vite** for fast development and building tasks</li><li>Enhances user experience with smooth transitions and loading indicators</li><li>Generates formatted date strings efficiently using **React hooks**</li></ul>                          |
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```sh
 └── health-profile/
@@ -154,8 +154,8 @@ The "health-profile" project is a user-friendly application designed to assess i
         └── training.ipynb
 ```
 
+### Project Index
 
-###  Project Index
 <details open>
 	<summary><b><code>HEALTH-PROFILE/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
@@ -494,34 +494,35 @@ The "health-profile" project is a user-friendly application designed to assess i
 </details>
 
 ---
-##  Getting Started
 
-###  Prerequisites
+## Getting Started
+
+### Prerequisites
 
 Before getting started with health-profile, ensure your runtime environment meets the following requirements:
 
 - **Programming Language:** TypeScript
 - **Package Manager:** Npm, Pip
 
-
-###  Installation
+### Installation
 
 Install health-profile using one of the following methods:
 
 **Build from source:**
 
 1. Clone the health-profile repository:
+
 ```sh
 ❯ git clone https://github.com/SrParavel/health-profile
 ```
 
 2. Navigate to the project directory:
+
 ```sh
 ❯ cd health-profile
 ```
 
 3. Install the project dependencies:
-
 
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -529,17 +530,14 @@ Install health-profile using one of the following methods:
 ❯ npm install
 ```
 
-
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-INSTALL-COMMAND-HERE'
 ```
 
+### Usage
 
-
-
-###  Usage
 Run health-profile using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -547,15 +545,14 @@ Run health-profile using the following command:
 ❯ npm start
 ```
 
-
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-RUN-COMMAND-HERE'
 ```
 
+### Testing
 
-###  Testing
 Run the test suite using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
@@ -563,24 +560,23 @@ Run the test suite using the following command:
 ❯ npm test
 ```
 
-
 **Using `pip`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
 ❯ echo 'INSERT-TEST-COMMAND-HERE'
 ```
 
-
 ---
-##  Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+## Project Roadmap
+
+- [x] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
 - [ ] **`Task 3`**: Implement feature three.
 
 ---
 
-##  Contributing
+## Contributing
 
 - **💬 [Join the Discussions](https://github.com/SrParavel/health-profile/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/SrParavel/health-profile/issues)**: Submit bugs found or log feature requests for the `health-profile` project.
@@ -623,13 +619,13 @@ Run the test suite using the following command:
 
 ---
 
-##  License
+## License
 
 This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
 - List any resources, contributors, inspiration, etc. here.
 

@@ -5,12 +5,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary";
 }
 
-function Button({
-  children,
-  variant = "primary",
-  className,
-  ...props
-}: ButtonProps) {
+function Button({ children, variant = "primary", className, ...props }: ButtonProps) {
   const variants = {
     primary: "style-accent text-on-accent",
     secondary: "style-muted text-on-muted",

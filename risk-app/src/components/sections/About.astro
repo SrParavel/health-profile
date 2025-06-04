@@ -1,0 +1,41 @@
+---
+import { LuBrain, LuClipboard, LuCpu, LuFileText, LuShieldCheck, LuStethoscope } from 'react-icons/lu'
+import Feature from '../Feature.astro'
+---
+
+<section id="about" class="grid lg:grid-cols-3 gap-4 max-w-6xl px-4">
+    <div class="lg:col-span-3 flex flex-col justify-center gap-2 items-center text-center my-8 text-gray-800">
+        <h3 class="text-3xl font-bold">¿Que es CardioRisk?</h3>
+        <p class="text-xl">Todo lo que necesitas saber sobre esta aplicación</p>
+    </div>
+    <div class="lg:col-span-2">
+        <Feature title="¿De que trata?" icon={LuBrain}>
+          Una herramienta que estima el riesgo de sufrir un evento cardiovascular usando inteligencia artificial y tus propios datos de salud. Rápida, privada y fácil de usar.
+        </Feature>
+    </div>
+
+  <Feature title="Formulario inteligente" icon={LuClipboard}>
+    Solo necesitas llenar un formulario corto con datos generales sobre ti, tu salud y tus hábitos generales. Nada complejo ni invasivo.
+  </Feature>
+
+  <div class="lg:row-span-2 lg:col-start-3 row-start-2">
+      <Feature title="Predicción con IA" icon={LuCpu}>
+        El sistema analiza tus datos con un modelo entrenado en factores de riesgo cardiovascular y calcula tu probabilidad de sufrir un ataque al corazón.
+      </Feature>
+  </div>
+
+  <Feature title="Reporte personalizado" icon={LuFileText}>
+    Además de la predicción, recibirás un reporte generado con IA que explica tu resultado en lenguaje claro y adaptado a tu situación.
+  </Feature>
+
+  <Feature title="Privacidad garantizada" icon={LuShieldCheck}>
+    Tus datos no se almacenan ni se comparten. Todo se procesa en tiempo real, sin registro y sin dejar huella.
+  </Feature>
+
+  <div class="lg:col-span-2">
+      <Feature title="Sin reemplazar al médico" icon={LuStethoscope}>
+        La app no da diagnósticos. Es una herramienta de prevención y orientación que nunca sustituye la opinión de un profesional de la salud.
+      </Feature>
+  </div>
+
+</section>

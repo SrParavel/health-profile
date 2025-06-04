@@ -9,10 +9,7 @@ interface FormNavProps extends HtmlHTMLAttributes<HTMLElement> {
 
 function FormNav({ step, steps, setStep, className, ...props }: FormNavProps) {
   return (
-    <nav
-      {...props}
-      className={`px-6 py-4 border-r border-r-gray-300 ${className}`}
-    >
+    <nav {...props} className={` px-6 py-4 border-r border-r-gray-300 ${className}`}>
       <ol className="flex flex-col gap-4">
         {steps.map((stepItem, index) => {
           const isActive = index === step;

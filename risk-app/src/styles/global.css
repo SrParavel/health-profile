@@ -31,3 +31,7 @@ body {
 .exporting-pdf .no-print {
   display: none !important;
 }
+
+html {
+  scroll-behavior: smooth;
+}

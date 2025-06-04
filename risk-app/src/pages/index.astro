@@ -1,8 +1,23 @@
 ---
 import Form from "../components/Form";
+import About from "../components/sections/About.astro";
+import Diagram from "../components/sections/Diagram.astro";
+import Header from "../components/sections/Header.astro";
+import Hero from "../components/sections/Hero.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <Form client:load />
+  <!-- <Header></Header> -->
+  <Hero></Hero>
+  <About></About>
+  <div class="bg-linear-to-tr from-slate-700 to-gray-900  w-full flex flex-col items-center gap-12">
+    <Diagram></Diagram>
+
+    <div class="flex flex-col items-center gap-12 p-8">
+      <h3 class="font-bold text-3xl text-center text-gray-50">Evalúa tu riesgo aquí</h3>
+      <p class="text-gray-300 text-lg text-center max-w-3xl">Recuerda que los resultados proporcionados por esta herramienta son orientativos y no reemplazan una evaluación médica profesional. Ante cualquier duda o síntoma, es fundamental consultar a un médico.</p>
+      <Form client:load />
+    </div>
+  </div>
 </Layout>
